@@ -6,23 +6,61 @@
     <title>Tea House</title>
     <link rel="stylesheet" href="style.css">
     <!-- FontAwesome CDN -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- Tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Custom Font -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 <body>
-    <header>
-
+    <header class="max-w-7xl mx-auto px-5 flex justify-between items-center">
+        <!-- Text Content -->
+         <div class="space-y-8">
+            <h1 class="font-manrope font-extrabold text-[4.5rem] leading-22 text-[#1C1C1C]">It's good <br>
+            tea time at The <br> 
+            Tea House
+            </h1>
+            <p class="font-manrope text-[#777777] text-lg font-medium max-w-3/4 ">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+            </p>
+            <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] font-manrope font-bold text-white text-xl px-5 py-6 rounded-xl">
+                Explore More
+                <i class="fa-solid fa-arrow-right fa-rotate-by text-2xl" style="--fa-rotate-angle: -45deg;"></i>
+            </button>
+         </div>
+        <!-- Image Content -->
+         <div>
+            <!-- image -->
+            <div class="pt-30 relative">
+                <img src="images/banner.png" alt="two cups">
+            </div>
+            <!-- rating card -->
+            <div class="absolute bg-white flex  items-center gap-x-5 shadow-xl rounded-xl px-5 py-4  top-125 left-280">
+                <!-- star icon -->
+                <div>
+                    <i class="fa-solid fa-star text-3xl text-amber-500"></i>
+                </div>
+                <!-- text rating -->
+                <div>
+                    <h2 class="font-manrope font-bold text-3xl text-black">5.00</h2>
+                    <p class="font-manrope font-medium text-sm text-[#777777]">Trust Pilot Rating</p>
+                </div>
+            </div>
+         </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
