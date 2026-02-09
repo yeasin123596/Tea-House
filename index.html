@@ -23,19 +23,21 @@
 <body class="max-w-7xl mx-auto px-5 font-manrope">
     <header class="flex flex-col items-center  lg:flex-row lg:justify-between">
         <!-- Text Content -->
-         <div class="space-y-8">
+        <div class="space-y-8">
             <h1 class="font-manrope font-extrabold text-5xl leading-15 text-[#1C1C1C] lg:text-[4.5rem]lg:leading-22">It's good <br>
             tea time at The <br> 
             Tea House
             </h1>
-            <p class="font-manrope text-[#777777] text-lg font-medium max-w-3/4 ">
+            <p class="font-manrope text-[#777777] text-lg font-medium lg:max-w-3/4 md:max-w-3/4 ">
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
             </p>
-            <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] font-manrope font-bold text-white text-lg px-4 py-5 rounded-xl lg:text-xl lg:px-5 lg:py-6">
+            <div class="flex justify-center lg:justify-normal">
+             <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] font-manrope font-bold text-white text-lg px-4 py-5  rounded-xl lg:text-xl lg:px-5 lg:py-6">
                 Explore More
                 <i class="fa-solid fa-arrow-right fa-rotate-by text-xl lg:text-2xl" style="--fa-rotate-angle: -45deg;"></i>
-            </button>
-         </div>
+             </button>
+            </div>
+        </div>
         <!-- Image Content -->
          <div class="relative">
             <!-- image -->
@@ -115,7 +117,7 @@
         <!-- Great tea grid section -->
         <section class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32 md:px-24">
             <!-- image grid section -->
-             <div class="grid grid-cols-2 grid-rows-3 gap-5 lg:max-w-7/8">
+            <div class="grid grid-cols-2 grid-rows-3 gap-5 lg:max-w-7/8">
                 <div class=" bg-linear-to-r from-orange-200 to-orange-50 rounded-xl">
                 </div>
                 <div class="bg-stone-100 rounded-xl row-span-2 flex items-center">
@@ -127,9 +129,9 @@
                 <div class=" bg-linear-to-r from-stone-300 to-stone-50 rounded-xl">
                 </div>
                 
-             </div>
+            </div>
             <!-- Text section -->
-             <div>
+            <div>
                 <h1 class="font-extrabold text-5xl mb-5 text-[#1C1C1C]">
                     Great Tea, Freshly Presented
                 </h1>
@@ -148,7 +150,97 @@
                 <p class="font-medium text-base text-[#777777] ">
                     Premium Quality that makes tea more elegant and more durable when you use it.
                 </p>
-             </div>
+            </div>
+        </section>
+        <!-- Reviews section -->
+        <section class="mb-32">
+            <div class="grid grid-cols-1 md:grid-cols-2 bg-linear-to-r from-[#FF8938] to-[#FF0000] rounded-xl
+            px-7 md:px-16">
+                <!-- text part -->
+                <div class="flex items-center">
+                    <div class="md:max-w-4/6 text-white mt-10">
+                    <h1 class="font-extrabold text-5xl leading-16 mb-5">
+                        Meet Our Super Clients
+                    </h1>
+                    <p class="font-medium text-base mb-8">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
+                    </p>
+                    <button class="bg-white rounded-xl text-orange-700 font-bold text-xl px-7 py-4">
+                        Show All
+                    </button>
+                </div>
+                </div>
+                <!-- Review card part -->
+                <div class="relative py-24">
+                    <!-- middle card -->
+                    <div class="absolute z-10 top-60">
+                        <div class="bg-white relative rounded-xl w-full md:max-w-5/6 ">
+                            <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                                <img class="p-1" src="images/client.png" alt="">
+                            </div>
+                            <div class="absolute right-5 bottom-5">
+                                <img src="images/circles.png" alt="">
+                            </div>
+                        
+                            <div class="px-8 py-10">
+                                <p class=" text-[#777777] leading-7 mb-5">
+                                    We are providing the best and suitable home insurance services for the people who are interested to treatment
+                                </p>
+                                <h3 class="font-bold text-[#1C1C1C] mb-2">
+                                    Ilham Yuda
+                                </h3>
+                                <p class="text-[#777777]">
+                                    Businessman
+                                </p>
+                            </div>
+                       
+                        </div>
+                    </div>
+                    <!-- top card -->
+                    <div class="bg-white relative rounded-xl w-full left-8 opacity-40 md:max-w-5/6 md:left-32">
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                            <img class="p-1" src="images/client.png" alt="">
+                        </div>
+                        <div class="absolute right-5 bottom-5">
+                            <img src="images/circles.png" alt="">
+                        </div>
+                        
+                        <div class="px-8 py-10">
+                            <p class=" text-[#777777] leading-7 mb-5">
+                                We are providing the best and suitable home insurance services for the people who are interested to treatment
+                            </p>
+                            <h3 class="font-bold text-[#1C1C1C] mb-2">
+                                Ilham Yuda
+                            </h3>
+                            <p class="text-[#777777]">
+                                Businessman
+                            </p>
+                        </div>
+                       
+                    </div>
+                    <!-- bottom card -->
+                    <div class="bg-white relative top-10 rounded-xl w-full left-8 opacity-40 md:max-w-5/6 md:left-32">
+                        <div class="absolute -top-5 -left-5 bg-white rounded-full ">
+                            <img class="p-1" src="images/client.png" alt="">
+                        </div>
+                        <div class="absolute right-5 bottom-5">
+                            <img src="images/circles.png" alt="">
+                        </div>
+                        <div class="px-8 py-10">
+                            <p class=" text-[#777777] leading-7 mb-5">
+                                We are providing the best and suitable home insurance services for the people who are interested to treatment
+                            </p>
+                            <h3 class="font-bold text-[#1C1C1C] mb-2">
+                                Ilham Yuda
+                            </h3>
+                            <p class="text-[#777777]">
+                                Businessman
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
