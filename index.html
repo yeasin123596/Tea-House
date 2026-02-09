@@ -20,8 +20,8 @@
         }
     </style>
 </head>
-<body class="max-w-7xl mx-auto font-manrope">
-    <header class="flex flex-col items-center px-5  lg:flex-row lg:justify-between ">
+<body class=" font-manrope">
+    <header class="flex flex-col items-center px-5 max-w-7xl mx-auto lg:flex-row lg:justify-between ">
         <!-- Text Content -->
         <div class="space-y-8">
             <h1 class="font-manrope font-extrabold text-5xl leading-15 text-[#1C1C1C] lg:text-[4.5rem]lg:leading-22">It's good <br>
@@ -58,7 +58,7 @@
             </div>
          </div>
     </header>
-    <main class="px-5 ">
+    <main class="max-w-7xl mx-auto px-5 ">
         <!-- Featured Tea Section -->
         <section> 
             <!-- text part -->
@@ -312,12 +312,95 @@
             </div>
         </section>
     </main>
-    <footer class="bg-[#ffe7e6]">
-        <div class=" max-w-4/5 mx-auto">
+    <footer class="bg-[#ffe7e6] py-32 px-4 md:px-16">
+        <div class=" max-w-7xl mx-auto">
             <!-- logo -->
-             <div>
-                <img src="images/cup.png" alt="">
-             </div>
+            <div class="flex flex-col gap-10 md:flex-row md:justify-between md:items-center  mb-22">
+                <div class="max-w-30 ">
+                    <img  src="images/cup.png" alt="">
+                </div>
+                
+                <div class="flex items-center gap-10">
+                    <h3 class="font-medium text-xl text-[#494949]">Ready to get started?</h3>
+                    <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] font-manrope  font-bold text-white text-lg px-4 py-2  rounded-xl " >
+                        Get Started
+                    </button>
+                </div>
+            </div>
+            <!-- links -->
+            <div class="grid grid-cols-1 gap-20 md:gap-40 md:grid-cols-2 lg:grid-cols-4">
+                <!-- first column -->
+                <div>
+                    <h3 class="font-semibold text-xl mb-6">Quick Links</h3>
+                    <ul class="space-y-5">
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Insurance</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- second column -->
+                <div>
+                    <h3 class="font-semibold text-xl mb-6">Our Service</h3>
+                    <ul class="space-y-5">
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Life Insurance</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Car Insurance</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Health Insurance</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Home Insurance</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Third column -->
+                <div>
+                    <h3 class="font-semibold text-xl mb-6">Help</h3>
+                    <ul class="space-y-5">
+                        <li>
+                            <a class="hover:text-orange-500" href="#">FAQs</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-orange-500" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- fourth column -->
+                <div>
+                    <h3 class="font-semibold text-2xl leading-10 mb-10">Subscribe to our newsletter</h3>
+                    <div class="flex  items-center">
+                        <input type="email" name="" id="" placeholder="Email address" class="border-b w-3/4 px-2 py-2">
+                        <div class="w-8 h-8 text-white bg-orange-600 rounded-full
+                        inline-flex justify-center items-center ">
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 mt-12 text-3xl">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>                  
+                </div>
+                
+            </div>
+            <!-- copyright -->
+                 <div class="flex justify-center mt-16">
+                    <p class="text-ceter">
+                        © 2027 UIDesign.to - All rights reserved.
+                    </p>
+                 </div>
         </div>
         
     </footer>
